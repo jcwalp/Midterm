@@ -6,12 +6,16 @@ html, body {
 
 body {
   font-family: 'Open Sans', sans-serif;
+}
+
+.head-section {
   background-image: url("../Images/mustang.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
 }
+
 /* Navbar */
 a.nav-link {
   font-family: 'Open Sans', sans-serif !important;
@@ -37,6 +41,7 @@ a.nav-link:hover {
 /* End of Nav stuff */
 
 /* Ad Container */
+
 h1 {
   font-weight: bolder !important;
   text-align: center;
@@ -52,8 +57,22 @@ p {
   font-weight: 300;
 }
 
+.icon {
+  text-align: center;
+  font-size: 80px;
+  margin-top: 1em;
+  color: white;
+}
 
-
+.video-section {
+  background-image: url("../Images/mustang2.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80%;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
 
 
 
