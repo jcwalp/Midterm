@@ -1,15 +1,60 @@
 html, body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 body {
   font-family: 'Open Sans', sans-serif;
+  background-image: url("../Images/mustang.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+/* Navbar */
+a.nav-link {
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 27px !important;
+  color: white !important;
+  padding-left: 1em !important;
 }
 
-.navbar.transparent.navbar-inverse .navbar-inner {
-  background: rgba(0,0,0,0.4);
+img.brand-logo{
+  width: 120;
+  margin-top: .8em;
+  margin-left: .2em;
 }
+
+nav {
+  background: rgba(0,0,0,.1);
+}
+
+a.nav-link:hover {
+  color: #34495e !important;
+}
+
+/* End of Nav stuff */
+
+/* Ad Container */
+h1 {
+  font-weight: bolder !important;
+  text-align: center;
+  font-size: 60px !important;
+  padding-top: 1em;
+  padding-bottom: .3em;
+}
+
+p {
+  text-align: center !important;
+  font-size: 32px !important;
+  font-style: oblique;
+  font-weight: 300;
+}
+
+
+
+
 
 
 
