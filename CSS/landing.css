@@ -76,34 +76,6 @@ img.mustang-head {
   margin-bottom: 0;
 }
 
-
-/* Youtube AD Modal */
-.modal-dialog {
-    margin: 30px auto;
-}
-
-.modal-body {
-  position:relative;
-  padding:0px;
-}
-.close {
-  position:absolute;
-  right:-30px;
-  top:0;
-  z-index:999;
-  font-size:2rem;
-  font-weight: normal;
-  color:#fff;
-  opacity:1;
-}
-
-button {
-  align-items: center !important;
-  background-color: transparent !important;
-  border-width: 0 !important;
-  border-color: transparent !important;
-}
-
 /* Icons */
 /* First */
 .icon-1 {
