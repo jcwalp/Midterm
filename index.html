@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <title>Cappalino Ford | Home</title>
 </head>
-<body>
+<body onload="playAudio()">
 <script src="../JS/scrolltarget.js" type="text/javascript"></script>
 <script src="../JS/modal.js" type="text/javascript"></script>
   <!-- Start of Nav -->
@@ -46,7 +46,7 @@
       <div class="row">
         <div class="col-lg-12 ext-container">
           <h1>Built Ford Proud</h1>
-          <p id="heading-sub">Check out the all new 2019 Ford Mustang</p>
+          <p>Check out the all new 2019 Ford Mustang</p>
         </div>
       </div>
       <div class="row">
@@ -62,8 +62,9 @@
 
   <div class="container-fluid video-section">
     <div id="icon-2" class="animated">
+      <img src="../Images/mustanghead.PNG" class="mustang-head">
+      <p id="image-subt">The All New 2019 Mustang</p>
       <i class="fas fa-angle-double-down"></i>
-      <img src="../Images/mustanghead.PNG" class="mustang-head" id="">
     </div>
     <div class="row">
       <div class="col-lg-12 d-flex justify-content-center" id="single-btn">
@@ -89,16 +90,16 @@
       </div>
     </div>
   </div>
-    <div class="row columns">
-      <div class="col-lg-4 animated" id="left-list">
-        <h4>Features</h4>
-        <div class="col-lg-4" id="right-text"> 
-          <h4>Nutt</h4>
+    <div class="container cols">
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-center animated" id="col-1">
+          <a href="../HTML/Shopping.html">
+            <button type="button" class="buy-btn btn btn-outline-primary">
+              <h3>Buy Now</h3>
+              <p class="fas fa-shopping-cart icon-3"></p>
+            </button>
+          </a>
         </div>
-      </div>
-      <div class="col-lg-4 animated" id="right-list">
-        <h4>Specifications</h4>
-      </div>
     </div>
   </div>
 

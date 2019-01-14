@@ -112,24 +112,36 @@ button.video-btn:hover{
   margin-top: 0;
   color: #eb4d4b;
 }
+/* Third */
 
-h4 {
+
+
+button.buy-btn {
   color: white !important;
-  padding: 2em;
+  background-color: #eb4d4b !important;
+  border-color: white !important;
+  border-width: thick;
+  font-style: oblique;
+  text-align: center;
+  padding: .5em 2.5em;
 }
 
-.columns {
-  display: block !important;
-  padding-right: 0;
-  padding-top: 2em;
-  padding-left: 2em;
-  padding-bottom: 1em;
+button.buy-btn:hover {
+  color: #eb4d4b !important;
+  border-color: #eb4d4b !important;
+  background-color: white !important;
 }
 
-.right-text {
-  display: inline-flex;
-  float: right !important;
+.col-1 {
+  margin-top: 3em;
 }
+
+p#image-subt {
+  color: white;
+}
+
+
+
 
 
 
