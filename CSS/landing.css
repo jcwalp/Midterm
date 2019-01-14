@@ -73,13 +73,17 @@ img.mustang-head {
   height: auto;
   display: block;
   margin: 0 auto;
-  margin-bottom: 2em;
+  margin-bottom: 0;
+}
+
+div#single-btn {
+  margin-top: 3em;
 }
 
 button.video-btn {
   color: white !important;
   background-color: #eb4d4b !important;
-  border-color: white;
+  border-color: white !important;
   border-width: thick;
   font-style: oblique;
   padding: 2em;
@@ -107,6 +111,10 @@ button.video-btn:hover{
   font-size: 56px;
   margin-top: 0;
   color: #eb4d4b;
+}
+
+.left-list {
+  
 }
 
 
