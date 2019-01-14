@@ -73,8 +73,25 @@ img.mustang-head {
   height: auto;
   display: block;
   margin: 0 auto;
-  margin-bottom: 0;
+  margin-bottom: 2em;
 }
+
+button.video-btn {
+  color: white !important;
+  background-color: #eb4d4b !important;
+  border-color: white;
+  border-width: thick;
+  font-style: oblique;
+  padding: 2em;
+}
+
+button.video-btn:hover{
+  color: #eb4d4b !important;
+  border-color: #eb4d4b !important;
+  background-color: white !important;
+}
+
+
 
 /* Icons */
 /* First */
