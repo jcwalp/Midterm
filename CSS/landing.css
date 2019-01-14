@@ -113,11 +113,23 @@ button.video-btn:hover{
   color: #eb4d4b;
 }
 
-.left-list {
-  
+h4 {
+  color: white !important;
+  padding: 2em;
 }
 
+.columns {
+  display: block !important;
+  padding-right: 0;
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-bottom: 1em;
+}
 
+.right-text {
+  display: inline-flex;
+  float: right !important;
+}
 
 
 
