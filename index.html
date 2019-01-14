@@ -65,9 +65,11 @@
       <img src="../Images/mustanghead.PNG" class="mustang-head">
       <i class="fas fa-angle-double-down"></i>
     </div>
-    <button class="video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/HVlfclOpsK8?controls=0" data-target="#myModal">
-      <img src="../Images/thumbnail.jpg" class="thumb-nail">
-    </button>
+    <div class="row">
+      <div class="col-lg-12 btn-cont">
+        <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-src="https://www.youtube.com/embed/HVlfclOpsK8?controls=0" data-target="#myModal"><h3>Watch Video</h3></button>
+      </div>
+    </div>
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
@@ -79,7 +81,7 @@
         </button>
           <!-- 16:9 aspect ratio -->
           <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always">></iframe>
+            <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always"></iframe>
           </div>
 
         </div>

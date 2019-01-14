@@ -97,12 +97,11 @@ img.mustang-head {
   opacity:1;
 }
 
-button {
-  align-items: center !important;
-  background-color: transparent !important;
-  border-width: 0 !important;
-  border-color: transparent !important;
+.btn-cont {
+  margin: 0 auto;
+  display: block;
 }
+
 
 /* Icons */
 /* First */
