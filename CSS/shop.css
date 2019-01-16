@@ -4,5 +4,34 @@ html, body {
 }
 
 body {
-  background-color: #22313f !important;
+  background-color: #ecf0f1 !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a.nav-link {
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 27px !important;
+  color: #34495e !important;
+  padding-left: 1em !important;
+}
+
+img.brand-logo{
+  width: 120;
+  margin-top: .8em;
+  margin-left: .2em;
+}
+
+nav {
+  background: rgba(0,0,0,0);
+}
+
+a.nav-link:hover {
+  color: #778ca3 !important;
+}
+
+button {
+  border-color: #34495e;
+  border-width: 8px;
+  border-style: solid;
+  padding: 0;
 }
