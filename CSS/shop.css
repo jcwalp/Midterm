@@ -5,7 +5,7 @@ html, body {
 
 body {
   background-color: #ecf0f1 !important;
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 a.nav-link {
@@ -29,9 +29,20 @@ a.nav-link:hover {
   color: #778ca3 !important;
 }
 
+h1 {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 56px !important;
+  font-weight: 100 !important;
+}
+
 button {
   border-color: #34495e;
   border-width: 8px;
   border-style: solid;
   padding: 0;
+}
+
+.carousel {
+  margin-bottom: 5em;
+  margin-top: 3em;
 }
