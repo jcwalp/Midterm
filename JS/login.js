@@ -1,30 +1,13 @@
-
-
-
-
-
-function field_focus(field, email)
-  {
-    if(field.value == email)
-    {
-      field.value = '';
-    }
-  }
-
-  function field_blur(field, email)
-  {
-    if(field.value == '')
-    {
-      field.value = email;
-    }
-  }
-
-//Fade in dashboard box
-$(document).ready(function(){
-    $('.box').hide().fadeIn(1000);
-    });
-
-//Stop click event
-$('a').click(function(event){
-    event.preventDefault();
-	});
+function verify(){
+        var un = document.loginform.email.value;
+        var pw = document.loginform.password.value;
+        var username = "jwalp@sjci.com";
+        var password = "password";
+        if ((un == username) && (pw == password)) {
+            return true;
+        }
+        else {
+            alert ("Login was unsuccessful, please check your username and password");
+            return false;
+        }
+}
