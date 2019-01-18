@@ -9,7 +9,7 @@ body {
 }
 
 .head-section {
-  background-image: url("../Images/mustang.jpg");
+  background-image: url("mustang.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -59,7 +59,7 @@ p {
 
 
 .video-section {
-  background-image: url("../Images/mustang2.jpg");
+  background-image: url("mustang2.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -134,7 +134,7 @@ p#image-subt {
 
 
 .info-sec {
-  background-image: url("../Images/f150.jpg");
+  background-image: url("f150.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
